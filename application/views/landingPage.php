@@ -2,8 +2,8 @@
     <html>
         <head>
             <title>mainPage</title>
-            <?= link_tag(base_url('assets/css/mainPage.css')); ?>
-            <script src="<?= base_url('assets/javascript/login_signup.js'); ?>">  
+            <?= link_tag('assets/css/mainPage.css'); ?>
+            <script src="<?php echo base_url('assets/javascript/login_signup.js'); ?>">  
             </script>
             <!-- For font -->
             <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
@@ -29,7 +29,7 @@
                 border:2px solid red;
                 background-color: rgb(0,0,0);
                 background-color: rgba(0,0,0,.6);
-                display:block;
+                display:none;
                 z-index: 1;
                 top:0;
                 left: 0;
