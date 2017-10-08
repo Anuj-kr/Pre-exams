@@ -29,7 +29,7 @@
                 border:2px solid red;
                 background-color: rgb(0,0,0);
                 background-color: rgba(0,0,0,.6);
-                display:none;
+                display:block;
                 z-index: 1;
                 top:0;
                 left: 0;
