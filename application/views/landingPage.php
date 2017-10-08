@@ -439,10 +439,10 @@
                     </div>
 
                 </div>
-            </div>
+            
 
         <script type="text/javascript" src="<?php echo base_url('assets/js/nanobar.min.js') ?>"></script>
-        </body>
+        
 
         <script type="text/javascript">
             
@@ -500,4 +500,5 @@
             })
             $("#nav").localScroll();
         </script>
+        </body>
     </html>
