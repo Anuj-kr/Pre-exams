@@ -1,7 +1,5 @@
 	<div id="container">
-				<div id="nav-bar">
-					<?php include('navbar1.php'); ?>
-				</div>
+				
 				<div id="get-in-touch">
 					<div id="get-in-touch-head">
 						<i class="fa fa-envelope" style="font-size:35px; text-align:center; color:#609cec; margin: 50px 0 30px 0;"></i>
