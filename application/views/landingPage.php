@@ -10,9 +10,9 @@
             <!-- For Icons -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-            <link rel="code.jquery.com/jquery-2.1.3.min.js">
-            <link rel="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js">
-            <link rel="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js">
+            <link href="code.jquery.com/jquery-2.1.3.min.js">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js">
             <!-- For font -->
             <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
             <!-- For Icons -->
