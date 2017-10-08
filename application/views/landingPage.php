@@ -3,7 +3,7 @@
         <head>
             <title>mainPage</title>
             <?= link_tag('assets/css/mainPage.css'); ?>
-            <script src="<?php echo base_url('assets/javascript/login_signup.js'); ?>">  
+           
             </script>
             <!-- For font -->
             <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
@@ -441,7 +441,7 @@
             <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
-           
+            <script src="<?php echo base_url('assets/javascript/login_signup.js'); ?>">  
         <script type="text/javascript" src="<?php echo base_url('assets/js/nanobar.min.js') ?>"></script>
         
 
