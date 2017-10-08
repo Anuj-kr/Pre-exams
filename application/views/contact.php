@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>Contact</title>
-
-			<?= link_tag(base_url('assets/css/mainPage.css')) ?>
-			<script src="<?= base_url('assets/javascript/login_signup.js') ?>">  
-            </script>
-			<!-- For font -->
-			<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
-			<!-- For Icons -->
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-		</head>
-
-		<body>
-			<div id="container">
+	<div id="container">
 				<div id="nav-bar">
 					<?php include('navbar1.php'); ?>
 				</div>
@@ -41,7 +25,7 @@
 							</div>
 
 							<div class="contacts">
-								<i class="fa fa-envelope-o"" ></i>
+								<i class="fa fa-envelope-o"></i>
 								<h2 style=" font-size: 22px; line-height:60px;">E-mail</h2><hr style="width:75px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.2;">
 								<p>suport@testyourself.com</p>
 							</div>
@@ -67,5 +51,4 @@
 				</div>
 			</div>
 
-		</body>
-	</html>
+		

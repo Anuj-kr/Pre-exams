@@ -1,122 +1,4 @@
-<!DOCTYPE>
-    <html>
-    <head>
-        <script src="<?= base_url('assets/javascript/login_signup.js') ?>"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>  
-            
-    <style>
-
-            *{
-                margin:0;
-                padding:0;
-                box-sizing: border-box;
-            }
-            .modal{
-                position:fixed;
-                padding-top:70px;
-                width:100%;
-                height:100%;
-                margin:auto;
-                border:2px solid red;
-                background-color: rgb(0,0,0);
-                background-color: rgba(0,0,0,.6);
-                display:none;
-                z-index: 1;
-                top:0;
-                left: 0;
-                
-            }
-
-            .modal-content{
-                width:25%;
-                height:460px;
-                margin:auto;
-                background-color: white;
-                border:1px solid black;
-                border-radius: 5px;
-                top:-100px;
-                animation: drop 650ms ease forwards;
-                
-            }
-            @keyframes drop{
-                0%{ opacity:0; }
-                70%{transform:translateY(20px);}
-                100%{ transform:translateY(20px); opacity: 1;}
-            }
-
-
-            .close{
-                float:right;
-                cursor:pointer;
-                font-size: 30px;
-                font-weight: 800;
-                margin-right: 15px;
-            }
-            #btn{
-                width:100px;
-                height:50px;
-            }
-            .modal-content h2{
-                font-family: sans-serif;
-                font-size: 18px;
-                color:darkslategray;
-                text-align: center;
-                margin-top: 40px;
-            }
-            form{
-                margin-top:30px;
-                text-align: center;
-            }
-            .textfields{
-                width:75%;
-                height:33px;
-                margin-top:8px;
-                margin-top:5px;
-                padding:2px 10px;
-                font-family: sans-serif;
-                font-size: 14px;
-                border:1px solid gray;
-                border-radius: 3px;
-            }
-            #myForm p{
-                text-align: left;
-                margin-left: 50px;
-                font-size: 11px;
-            }
-            .signup{
-                width:75%;
-                height:30px;
-                margin:10px 0 0 0;
-                background-color: darkslategray;
-                border:none;
-                color:white;
-                cursor: pointer;
-                border:1px solid black;
-                border-radius: 3px;
-            }
-            .modal-content p{
-                font-family: sans-serif;
-                font-size: 13px;
-                color:darkslategray;
-            }
-            .modal-content a{
-
-                font-family: sans-serif;
-                font-size: 14px;
-                color:#609cec;
-                text-decoration: none;
-                transition-duration: 0.4s;
-            }
-            .modal-content a:hover{
-                text-decoration: underline;
-                text-decoration-color: #609cec
-            }
-
-        </style>
-        </head>
-        <body>
-
-            <div id="myModal" class="modal">
+  <div id="myModal" class="modal">
                 
                 <div class="modal-content">
                     <span class="close">&times;</span>
@@ -137,7 +19,7 @@
                 </div>
                  
             </div>
-        </body>
+        
                 <!-- <script>
 
                       $(document).ready(function (){
@@ -175,7 +57,7 @@
                                 e.preventDefault();
                             }
                         });
-                // ***************************************form validation********************************
+                
                     $(function () {
                         
                         $("#err_name").css('color', 'white');
@@ -350,7 +232,6 @@
                     });
                     </script> 
  
-    </html>
-        
+    
         
             
