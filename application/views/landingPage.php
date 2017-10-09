@@ -4,7 +4,8 @@
             <title>mainPage</title>
             <?= link_tag('assets/css/mainPage.css'); ?>
            
-             <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            
+              <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
             <!-- For font -->
             <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
             <!-- For Icons -->
