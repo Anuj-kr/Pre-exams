@@ -4,7 +4,7 @@
             <title>mainPage</title>
             <?= link_tag('assets/css/mainPage.css'); ?>
            
-            </script>
+            
             <!-- For font -->
             <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
             <!-- For Icons -->
