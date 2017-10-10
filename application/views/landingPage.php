@@ -469,6 +469,7 @@
         $(document).scroll(function(e){
             var ScrollPos = $(this).scrollTop();
             
+
             if(ScrollPos > ammountScolled){
                 $('#up-arrow').fadeIn(600);
                 
@@ -476,7 +477,8 @@
                 $('#up-arrow').fadeOut(500);
                 
             }
-            var aaa = "#ho";
+            
+// *********************************for changing color of nav li ***************************
             if(ScrollPos < 580) {
                 set_color('#ho');
                 reset_color('#feat','#cour','#con');
@@ -512,6 +514,8 @@
             $(r).css('color','darkslategray');
             $(r).css('border-bottom','none');
         }
+
+ // *********************************for changing color of nav li *****************************
         </script>
 
 
