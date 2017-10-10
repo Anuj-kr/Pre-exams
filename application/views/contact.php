@@ -15,8 +15,8 @@
 								<i class="fa fa-map-marker" ></i>
 								<h2 style=" font-size: 22px; line-height:60px;">Address</h2><hr style="width:90px; color:hostWhite; margin:0 auto 10px auto; opacity: 0.2;">
 								<p>
-									TestYourSelf<br>
-									Hall-3 Room-316<br>
+									Pre-exams<br>
+									Hall-9 Room-417<br>
 									NIT Durgapur<br>
 									West Bengal 713209
 								</p>
@@ -25,7 +25,7 @@
 							<div class="contacts">
 								<i class="fa fa-envelope-o"></i>
 								<h2 style=" font-size: 22px; line-height:60px;">E-mail</h2><hr style="width:75px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.2;">
-								<p>suport@testyourself.com</p>
+								<p>anujkr0502@gmail.com</p>
 							</div>
 							<div class="contacts">
 								<i class="fa fa-phone" ></i>

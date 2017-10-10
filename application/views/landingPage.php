@@ -260,7 +260,7 @@
                         <div id="navbar">
                             <ul id="nav">
                                 <!-- <li><?= anchor('Main','Home');?></a></li> -->
-                                <li><a id="ho" href="<?= base_url('Main');?>" style="color: cornflowerblue; border-bottom: 2px solid cornflowerblue;">Home</a></li>
+                                <li><a id="ho" href="<?= base_url();?>" style="color: cornflowerblue; border-bottom: 2px solid cornflowerblue;">Home</a></li>
                                 <li><a id="feat" href="">Features</a></li>
                                 <li><a id="cour" href="">Course</a></li>
                                 <li><a id="con" href="">Contact</a></li>
@@ -425,7 +425,7 @@
                                     </div>
                                     <div class="footer-copyright">
                                         <p style="font-size: 16px; font-family: Calibri; color:darkslategray;">
-                                            © Copyright 2017-<a href="#">TestYourSelf.com </a>- All Rights Reserved. 
+                                            © Copyright 2017-<a href="#">Pre-exams </a>- All Rights Reserved. 
                                         </p>
                                     </div>
                                 </div>
