@@ -368,7 +368,7 @@ h3{
 	height:370px;
 	margin:2px auto;
 	/*border:2px solid blue;*/
-	
+
 }
 .contacts{
 	width:20%;
@@ -428,7 +428,8 @@ i.fa.fa-question{
 #footer{
 	width:100%;
 	height:200px;
-	/*border:2px solid yellow;*/
+	border-top:1px solid lightgray;
+	background-color:#F0FFF0;
 	text-align: center;
 }
 .footer-social{
