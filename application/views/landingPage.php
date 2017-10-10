@@ -25,7 +25,7 @@
                 width:100%;
                 height:100%;
                 margin:auto;
-                border:2px solid red;
+                /*border:2px solid red;*/
                 background-color: rgb(0,0,0);
                 background-color: rgba(0,0,0,.6);
                 display:none;
@@ -125,7 +125,8 @@
                 width:100%;
                 height:100%;
                 margin:auto;
-                border:2px solid red;
+                /*border:2px solid red;*/
+
                 background-color: rgb(0,0,0);
                 background-color: rgba(0,0,0,.6);
                 display:none;
@@ -253,16 +254,17 @@
                 <div id="header">
 
                         <div id="logo_container">
-                            <img src="<?= base_url('assets/images/logo1.png') ?> " alt="logo" style="width:200px; height:55px;" >
+                            <a href="<?= base_url(''); ?>"><img src="<?= base_url('assets/images/logo1.png') ?> " alt="logo" style="width:150px; height:27px; margin:12px 0 0 20px;"></a>
 
                         </div>
                         <div id="navbar">
                             <ul id="nav">
-                                <li><?= anchor('Main','Home');?></li>
-                                <li><a id="cour" href="#course">Course</a></li>
-                                <li><a id="feat" href="#">Features</a></li>
-                                <li><a id="con" href="#">Contact</a></li>
-                                <li><a id="login" href="#" onclick="logindisp()">login</a></li>
+                                <!-- <li><?= anchor('Main','Home');?></a></li> -->
+                                <li><a id="ho" href="<?= base_url('Main');?>" style="color: cornflowerblue; border-bottom: 2px solid cornflowerblue;">Home</a></li>
+                                <li><a id="feat" href="">Features</a></li>
+                                <li><a id="cour" href="">Course</a></li>
+                                <li><a id="con" href="">Contact</a></li>
+                                <li><a id="login" href="" onclick="logindisp()">login</a></li>
                                 <li><a  id="signupNow" onclick="disp()">SignUp</a></li>
                             </ul>
                         </div>
@@ -294,12 +296,12 @@
 
                             </div>
 
-                            <div id="features_list" style="border:3px solid darkgray; text-align: center; ">
-                                <div id="feature_heading" style="font-family: candara; font-size: 28px; font-weight: 100; width:100%; height:100px;">
-                                    <h2 style="border:1px solid red; margin:0;">Features</h2>
+                            <div id="features_list" style="text-align: center; ">
+                                <div id="feature_heading" style="">
+                                    <h2 >Features</h2>
+                                    <div class="bbbb"></div>
                                 </div>
-                                <div class="bor" style="width:70px; height:3px; color:green;">
-                                    </div>
+                                
                                 <div class="feature" >
 
                                     <div class="features">
@@ -335,7 +337,7 @@
                         </div>
 
 
-                            <div id="heading_and_course" style=" border:1px solid red;">
+                            <div id="heading_and_course">
                                 
                                 <div id="heading" style=" border:1px solid blue;">
                                     <h2 style="text-align: center;">Best Exam Preparation for You. Start Now!</h2>
@@ -344,11 +346,11 @@
                                     </h4>
                                 </div>
 
-                                <div id="course" style="border:1px solid green;">
+                                <div id="course" >
                                     <h1 style="border:1px solid yellow; font-family: Courgette; padding:30px 0 30px 0;color: darkslategray; text-align:center;font-size: 30px;">Courses</h1>
 
 
-                                    <div id="subject_container" style="border: 1px solid red; ">
+                                    <div id="subject_container">
                                         <ul id="subj" style="list-style-type: none;">
                                             <li>
                                                 <a  class="sub_anchor" href="#" ><i class="fa fa-bank" style="font-size:32px; margin-top:15px; margin-bottom:15px;"></i><h2 style="margin-top:10px;">Bank PO</h2>
@@ -404,14 +406,11 @@
                             
                             <div id="banner2" style="border:1px solid black;">
                              <!-- <img src="<?= base_url('assets/images/logo1.png') ?> " alt="logo" style="width:100%; height:355px;" > -->
-                                <!-- <div id="banner22"> -->
-                                <h1 style="font-family: Courgette;font-size: 36px;color:white;padding: 80px 0px 10px 0px;letter-spacing: 2px;" >Start Your Exam Prepration Now</h1>
-                                <h3 style="color:white;font-size: 16;font-family: monospace;">PRACTICE ANALYZE AND IMPROVE!</h3>
-                                
-                                
-                                <button id="sign" class="button" onclick="disp()">GET STARTED</button>
-                                
-                                <!-- </div> -->
+                                <div id="banner22">
+                                    <h1 >Start Your Exam Prepration Now</h1>
+                                    <h3 >PRACTICE ANALYZE AND IMPROVE!</h3>
+                                    <button id="sign" class="button" onclick="disp()">GET STARTED</button>
+                                </div>
                             </div>
 
                             <div id="footer_and_get_in_touch">
@@ -477,7 +476,42 @@
                 $('#up-arrow').fadeOut(500);
                 
             }
-        })
+            var aaa = "#ho";
+            if(ScrollPos < 580) {
+                set_color('#ho');
+                reset_color('#feat','#cour','#con');
+            }
+            else if(ScrollPos > 580 && ScrollPos < 1410) {
+                set_color("#feat");
+                reset_color('#cour','#con','#ho');
+            }
+            else if(ScrollPos > 1410 && ScrollPos < 2310) {
+                set_color("#cour");
+                reset_color('#feat','#con','#ho');
+            }
+            else if(ScrollPos > 2310) {
+                set_color("#con");
+                reset_color('#cour','#feat','#ho');
+            }
+            else {
+                $("#ho").css('color','cornflowerblue');
+                $("#ho").css('border-bottom','2px solid cornflowerblue');
+            }
+        });
+
+        function set_color(tag)
+        {
+            $(tag).css('color','cornflowerblue');
+            $(tag).css('border-bottom','2px solid cornflowerblue');
+        }
+        function reset_color(p, q, r) {
+            $(p).css('color','darkslategray');
+            $(p).css('border-bottom','none');
+            $(q).css('color','darkslategray');
+            $(q).css('border-bottom','none');
+            $(r).css('color','darkslategray');
+            $(r).css('border-bottom','none');
+        }
         </script>
 
 
@@ -485,22 +519,22 @@
         <script type="text/javascript">
                 
                 $(document).on('click','#feat',function(){
-                $('html,body').animate({scrollTop:590},1000);
+                $('html,body').animate({scrollTop:640},800);
                 return false;
                     })
 
                 
                 $(document).on('click','#cour',function() {
-                $('html,body').animate({scrollTop:1420},1000);
+                $('html,body').animate({scrollTop:1480},800);
                 return false;
                     })
               
                 
                 $(document).on('click','#con',function(){
-                $('html,body').animate({scrollTop:2425},1000);
+                $('html,body').animate({scrollTop:2465},800);
                 return false;
             })
-            $("#nav").localScroll();
+            $("#nav").localScroll("this");
         </script>
         </body>
     </html>
