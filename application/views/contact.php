@@ -41,7 +41,7 @@
 								<h2 style=" font-size: 22px; line-height:60px;">FAQ</h2>
 								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.2;">
 								<p>
-									Answers to the most<br> frequently asked<br>questions about <br><a href="#" style="text-decoration: none; color:#609cec;">TestYourSelf</a>
+									Answers to the most<br> frequently asked<br>questions about <br><a href="#" style="text-decoration: none; color:#609cec;">Pre-exams</a>
 								</p>
 							</div>
 						</div>
