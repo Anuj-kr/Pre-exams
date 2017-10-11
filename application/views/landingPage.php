@@ -264,8 +264,8 @@
                                 <li><a id="feat" href="">Features</a></li>
                                 <li><a id="cour" href="">Course</a></li>
                                 <li><a id="con" href="">Contact</a></li>
-                                <li><a id="login" href="" onclick="logindisp()">login</a></li>
-                                <li><a  id="signupNow" onclick="disp()">SignUp</a></li>
+                                <li><a id="login" onclick="logindisp()" style="cursor: pointer;">login</a></li>
+                                <li><a  id="signupNow" onclick="disp()" style="cursor: pointer;">SignUp</a></li>
                             </ul>
                         </div>
 
