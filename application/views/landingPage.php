@@ -4,6 +4,7 @@
             <title>mainPage</title>
             <?= link_tag('assets/css/mainPage.css'); ?>
            
+            <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
             
               <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
             <!-- For font -->
@@ -280,8 +281,8 @@
                             <div id="banner1">
 
                                 <div class="banner-left-side">
-                                    <h2 style="font-family: Calibri; font-size: 70px; color:darkslategray; margin-top:100px;letter-spacing: 2px;">ACE YOUR EXAM</h2>
-                                    <h4 style="font-family: Calibri; font-size: 18px; color:darkslategray; text-align: center;">PRACTICE ANALYZE AND IMPROVE!</h4>
+                                    <h2 id="top-heading" style="">ACE YOUR EXAM</h2>
+                                    
                                     <p style="font-family: Calibri; font-size: 20px; color:darkslategray; text-align: left; margin-top:50px;line-height: 
                                     ">
                                         Join the most comprehensive online preparation portal for Banking and Government exams. Explore a range of mock<br> tests and study material.
@@ -299,7 +300,7 @@
                             <div id="features_list" style="text-align: center; ">
                                 <div id="feature_heading" style="">
                                     <h2 >Features</h2>
-                                    <div class="bbbb"></div>
+                                    <div id="bbbb" style=""></div>
                                 </div>
                                 
                                 <div class="feature" >
@@ -346,15 +347,15 @@
                                     </h4>
                                 </div>
 
-                                <div id="course" >
-                                    <h1 style="border:1px solid yellow; font-family: Courgette; padding:30px 0 30px 0;color: darkslategray; text-align:center;font-size: 30px;">Courses</h1>
+                                <div id="course" style="width:100%;">
+                                    <h1 id="course-head">Courses</h1>
 
 
                                     <div id="subject_container">
                                         <ul id="subj" style="list-style-type: none;">
                                             <li>
                                                 <a  class="sub_anchor" href="#" ><i class="fa fa-bank" style="font-size:32px; margin-top:15px; margin-bottom:15px;"></i><h2 style="margin-top:10px;">Bank PO</h2>
-                                                    <p class="sub_paragraph">IBPS PO, SBI PO, RRB Officer </p>
+                                                    <p class="sub_paragraph">IBPS PO, SBI PO</p>
                                                 </a>
                                             </li>
                                             <li>
@@ -364,12 +365,12 @@
                                             </li>
                                             <li>
                                                 <a  class="sub_anchor" href="#" ><i class="fa fa-bank" style="font-size:32px; margin-top:15px; margin-bottom:15px;"></i><h2 style="margin-top:10px;">Bank Clerk</h2>
-                                                    <p class="sub_paragraph">IBPS Clerk, SBI Clerk, RRB Assistant </p>
+                                                    <p class="sub_paragraph">IBPS Clerk, SBI Clerk</p>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a  class="sub_anchor" href="#" ><i class="fa fa-male" style="font-size:32px; margin-top:15px; margin-bottom:15px;"></i><h2 style="margin-top:10px;">SSC</h2>
-                                                    <p class="sub_paragraph">SSC MTS, SSC CGL & Stenographer</p>
+                                                    <p class="sub_paragraph">SSC MTS, SSC CGL</p>
                                                 </a>
                                             </li>
                                             <li>
@@ -389,7 +390,7 @@
                                             </li>
                                             <li>
                                                 <a  class="sub_anchor" href="#" ><i class="fa fa-bank" style="font-size:32px; margin-top:15px; margin-bottom:15px;"></i><h2 style="margin-top:10px;">RBI</h2>
-                                                    <p class="sub_paragraph">RBI Officer, RRB Assistant</p>
+                                                    <p class="sub_paragraph">RBI Officer</p>
                                                 </a>
                                             </li>
                                         </ul>
