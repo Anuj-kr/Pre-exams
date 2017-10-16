@@ -257,7 +257,7 @@
                         <div id="logo_container">
                             <a href="<?= base_url(''); ?>"><img src="<?= base_url('assets/images/logo1.png') ?> " alt="logo" style="width:150px; height:27px; margin:12px 0 0 20px;"></a>
                             Beta
-
+                            <p id="ws"></p>
                         </div>
                         <div id="navbar">
                             <ul id="nav">
@@ -445,7 +445,12 @@
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
             <script src="<?php echo base_url('assets/javascript/login_signup.js'); ?>">  
         <script type="text/javascript" src="<?php echo base_url('assets/js/nanobar.min.js') ?>"></script>
-        
+        <script type="text/javascript">
+            window.onresize = function() {
+                var ws = window.innerWidth;
+                document.getElementById("ws").innerHTML = ws;
+            }
+        </script>
 
         <script type="text/javascript">
             
