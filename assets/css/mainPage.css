@@ -588,6 +588,16 @@ i.fa.fa-question{
 	background-color: yellow;
 	}
 }
+@media screen and (max-width:1270px) {
+	#subject_container{
+	width: 86%;
+	height:470px;
+	margin-left: 7%;
+	padding-top: 10px;
+	text-align: center;
+	background-color: yellow;
+	}
+}
 @media screen and (max-width:1260px) {
 	#heading_and_course{
 	/*margin-top: 5px;*/
