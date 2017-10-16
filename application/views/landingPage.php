@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>mainPage</title>
+            <title>Pre-exams</title>
             <?= link_tag('assets/css/mainPage.css'); ?>
            
             <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -256,6 +256,7 @@
 
                         <div id="logo_container">
                             <a href="<?= base_url(''); ?>"><img src="<?= base_url('assets/images/logo1.png') ?> " alt="logo" style="width:150px; height:27px; margin:12px 0 0 20px;"></a>
+                            Beta
 
                         </div>
                         <div id="navbar">

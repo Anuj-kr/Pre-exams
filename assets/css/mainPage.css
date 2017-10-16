@@ -294,15 +294,7 @@ h3{
     transform: scale(1);*/
     z-index:0;
 }
-.sub_anchor:hover{
-
- 	-webkit-transition: all 250ms ease-in-out;
-    -webkit-transform: scale(1.060);
-	/*width: 241px;
-	height:171px;*/
-	z-index:0;
-	
-}
+.
 .sub_paragraph{
 	word-spacing: -5px;
 
@@ -513,7 +505,7 @@ i.fa.fa-question{
 }
 
 /*media Query******************************************/
-@media screen and (max-width:1330px) {
+@media screen and (max-width:1350px) {
 	#heading_and_course{
 		width: 100%;
 		/*min-height:1000px;*/
@@ -548,7 +540,7 @@ i.fa.fa-question{
 }
 }
 
-@media screen and (max-width:1273px) {
+@media screen and (max-width:1293px) {
 	#top-heading{
 	font-family: Calibri; 
 	font-size: 60px; 
@@ -557,7 +549,7 @@ i.fa.fa-question{
 	letter-spacing: 2px;
 }
 }
-@media screen and (max-width:1260px) {
+@media screen and (max-width:1280px) {
 	#heading_and_course{
 		width: 100%;
 		/*min-height:1000px;*/
@@ -568,10 +560,8 @@ i.fa.fa-question{
 	}
 	#subject_container{
 		width:90%;
-		/*background-color: gray;*/
-		/*border: 1px solid red;*/
 		margin:0px auto 0px auto;
-		/*padding: 0px auto 0px auto;*/
+		/*background-color: pink;*/
 	}
 	.sub_anchor{
 	width: 250px;
@@ -590,21 +580,21 @@ i.fa.fa-question{
     z-index:0;
 }
 }
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1270px) {
 
 	#header{
 		/*background-color: red;*/
 	}
 	#heading_and_course{
 		width: 100%;
-		/*min-height:1000px;*/
-		/*margin-left: 6%;*/
 		padding-top: 10px;
 		text-align: center;
 	}
 	#subject_container{
 		width:88%;
 		margin:0px auto 0px auto;
+		/*background-color: yellow;*/
+		padding-left:1%;
 	}
 	.sub_anchor{
 	width: 243px;
@@ -625,17 +615,34 @@ i.fa.fa-question{
 	
 
 }
-@media screen and (max-width:1230px) {
+@media screen and (max-width:1260px) {
+	.sub_anchor{
+	width: 238px;
+	height:170px;
+	background-color: darkslategray;
+	display: inline-block;
+	/*border:2px solid black;*/
+	float: left;
+	border-radius: 5px;
+	margin:13px;
+	padding-top:25px;
+	color:white;
+	font-family: monospace;
+	/*font-size: 18px;*/
+	text-decoration: none;
+    z-index:0;
+}
+}
+@media screen and (max-width:1250px) {
 	#heading_and_course{
 		width: 100%;
-		/*min-height:1000px;*/
-		/*margin-left: 6%;*/
 		padding-top: 10px;
 		text-align: center;
 	}
 	#subject_container{
-		width:90%;
+		width:91%;
 		margin:0px auto 0px auto;
+		/*background-color: red;*/
 	}
 	.sub_anchor{
 	width: 245px;
@@ -655,10 +662,12 @@ i.fa.fa-question{
 }
 
 } 
-@media screen and (max-width:1210px) {
+@media screen and (max-width:1230px) {
 	#subject_container{
 		width:91%;
 		margin:0px auto 0px auto;
+		/*background-color: blue;*/
+		padding-left:30px;
 	}
 	#nav{
 	margin-right: 20px;
@@ -666,40 +675,35 @@ i.fa.fa-question{
 	list-style-type: none;
 	float:right;
 }
-
-}
-@media screen and (max-width:1200px) {
-	#heading_and_course{
-		width: 100%;
-		/*min-height:1000px;*/
-		/*margin-left: 6%;*/
-		padding-top: 10px;
-		text-align: center;
-	}
-	#subject_container{
-		width:91%;
-		margin:0px auto 0px auto;
-	}
-	.sub_anchor{
-	width: 243px;
+.sub_anchor{
+	width: 240px;
 	height:170px;
 	background-color: darkslategray;
 	display: inline-block;
 	/*border:2px solid black;*/
 	float: left;
 	border-radius: 5px;
-	margin:13px;
+	margin:10px;
 	padding-top:25px;
 	color:white;
 	font-family: monospace;
 	/*font-size: 18px;*/
 	text-decoration: none;
     z-index:0;
-}
-
 
 }
-@media screen and (max-width:1187px) {
+@media screen and (max-width:1220px) {
+	#heading_and_course{
+		width: 100%;
+		padding-top: 10px;
+		text-align: center;
+	}
+	#subject_container{
+		width:91%;
+		margin:0px auto 0px auto;
+		/*background-color: green;*/
+		padding-left:10px;
+	}
 	.sub_anchor{
 	width: 240px;
 	height:170px;
@@ -716,9 +720,11 @@ i.fa.fa-question{
 	text-decoration: none;
     z-index:0;
 }
+
+
 }
-@media screen and (max-width:1173px) {
-.sub_anchor{
+@media screen and (max-width:1217px) {
+	.sub_anchor{
 	width: 236px;
 	height:170px;
 	background-color: darkslategray;
@@ -735,10 +741,9 @@ i.fa.fa-question{
     z-index:0;
 }
 }
-
-@media screen and (max-width:1160px) {
-	.sub_anchor{
-	width: 233px;
+@media screen and (max-width:1193px) {
+.sub_anchor{
+	width: 232px;
 	height:170px;
 	background-color: darkslategray;
 	display: inline-block;
@@ -755,9 +760,28 @@ i.fa.fa-question{
 }
 }
 
-@media screen and (max-width:1143px) {
+@media screen and (max-width:1180px) {
 	.sub_anchor{
-	width: 230px;
+	width: 228px;
+	height:170px;
+	background-color: darkslategray;
+	display: inline-block;
+	/*border:2px solid black;*/
+	float: left;
+	border-radius: 5px;
+	margin:13px;
+	padding-top:25px;
+	color:white;
+	font-family: monospace;
+	/*font-size: 18px;*/
+	text-decoration: none;
+    z-index:0;
+}
+}
+
+@media screen and (max-width:1163px) {
+	.sub_anchor{
+	width: 226px;
 	height:170px;
 	background-color: darkslategray;
 	display: inline-block;
@@ -780,9 +804,9 @@ i.fa.fa-question{
 }
 }
 
-@media screen and (max-width:1128px) {
+@media screen and (max-width:1148px) {
 	.sub_anchor{
-	width: 228px;
+	width: 222px;
 	height:170px;
 	background-color: darkslategray;
 	display: inline-block;
@@ -799,14 +823,14 @@ i.fa.fa-question{
 }
 }
 
-@media screen and (max-width:1118px) {
+@media screen and (max-width:1138px) {
 
 	#top-heading{
 		font-size: 55px;
 	}
 
 	.sub_anchor{
-	width: 225px;
+	width: 218px;
 	height:170px;
 	background-color: darkslategray;
 	display: inline-block;
@@ -822,7 +846,7 @@ i.fa.fa-question{
     z-index:0;
 }
 
-@media screen and (max-width:1113px) {
+@media screen and (max-width:1133px) {
 	#heading_and_course{
 		width: 100%;
 		/*min-height:1000px;*/
@@ -835,7 +859,7 @@ i.fa.fa-question{
 		margin:0px auto 0px auto;
 	}
 	.sub_anchor{
-	width: 218px;
+	width: 215px;
 	height:170px;
 	background-color: darkslategray;
 	display: inline-block;
@@ -852,7 +876,7 @@ i.fa.fa-question{
 }
 }
 
-@media screen and (max-width:1084px) {
+@media screen and (max-width:1104px) {
 	#heading_and_course{
 		width: 100%;
 		/*min-height:1000px;*/
@@ -865,7 +889,7 @@ i.fa.fa-question{
 		margin:0px auto 0px auto;
 	}
 	.sub_anchor{
-	width: 218px;
+	width: 212px;
 	height:170px;
 	background-color: darkslategray;
 	display: inline-block;
@@ -880,4 +904,4 @@ i.fa.fa-question{
 	text-decoration: none;
     z-index:0;
 }
-}
+} 
