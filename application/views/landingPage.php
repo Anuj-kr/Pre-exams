@@ -28,7 +28,7 @@
                 margin:auto;
                 /*border:2px solid red;*/
                 background-color: rgb(0,0,0);
-                background-color: rgba(0,0,0,.6);
+                background-color: rgba(0,0,0,.7);
                 display:none;
                 z-index: 1;
                 top:0;
@@ -129,7 +129,7 @@
                 /*border:2px solid red;*/
 
                 background-color: rgb(0,0,0);
-                background-color: rgba(0,0,0,.6);
+                background-color: rgba(0,0,0,.7);
                 display:none;
                 z-index: 1;
                 top:0;
@@ -340,17 +340,19 @@
 
 
                             <div id="heading_and_course">
-                                
-                                <div id="heading" style=" border:1px solid blue;">
-                                    <h2 style="text-align: center;">Best Exam Preparation for You. Start Now!</h2>
-                                    <h4 style="text-align: center;">
-                                        Boost your exam preparation with Us. Select your course and get started.
-                                    </h4>
+                                <div id="head-banner">
+                                    <div id="overlay-head">
+                                    <div id="heading">
+                                        <h2 style="text-align: center;">Best Exam Preparation for You. Start Now!</h2>
+                                        <h4 style="text-align: center;">
+                                            Boost your exam preparation with Us. Select your course and get started.
+                                        </h4>
+                                    </div>
+                                    </div>
                                 </div>
-
                                 <div id="course" style="width:100%;">
                                     <h1 id="course-head">Courses</h1>
-
+                                    <div id="course-under"></div>
 
                                     <div id="subject_container">
                                         <ul id="subj" style="list-style-type: none;">
