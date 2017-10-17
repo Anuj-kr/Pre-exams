@@ -850,6 +850,15 @@ i.fa.fa-question{
 
 @media screen and (min-width: 320px) and (max-width: 400px) {
 
+	*{
+		margin:0;
+		padding:0;
+		box-sizing: border-box;
+	}
+	#main_container{
+	border: 1px solid white;
+
+}
 	#header{
 	width: 100%;
 	height: 54px;
@@ -859,8 +868,8 @@ i.fa.fa-question{
 	margin-top: -1px;
 }
 
-#navbar{
-	display: none;
+#navbar{ 
+	display: none; /* to hidde default navbar */
 }
 #logo_container{
 	margin-left:12px;
@@ -879,7 +888,7 @@ i.fa.fa-question{
 	font-size: 18px; 
 	color:darkslategray; 
 	margin-top:50px;
-	letter-spacing: 2px;
+	/*letter-spacing: 2px;*/
 	margin-bottom: -30px;
 }
 #top-head-para{
