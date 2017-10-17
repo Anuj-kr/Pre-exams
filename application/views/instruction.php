@@ -17,7 +17,7 @@
 
 	<div id="navbar">
 		<div id="logo">
-			<img src="<?= base_url('assets/images/logo1.png')?>" alt="logo" style="height:60px;,width:150px; float: left;">
+			<img src="<?= base_url('assets/images/logo1.png')?>" alt="logo" style="height:27px;,width:140px; float: left; margin-top: 12px;">
 		</div>
 		<div id="test-name">
 			<h2 id="course-name"><?php echo $course." - ".$id; ?></h2>

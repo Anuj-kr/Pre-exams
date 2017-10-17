@@ -15,7 +15,7 @@
 			 	<div id="header">
 
 			 		<div id="main-header">
-			 			<img src="<?= base_url('assets/images/logo1.png') ?>" alt="logo" style="width:200px; height:55px; margin-left: 110px;">
+			 			<img src="<?= base_url('assets/images/logo1.png') ?>" alt="logo" style="width:140px; height:27px; margin: 10px 0 0 110px;">
 			 			<div id="user-name-logout">
 			 				<!-- display user name -->
 			 				<p style="padding-right: 10px; font-size: 16px;letter-spacing: 1px;"><?php

@@ -22,7 +22,7 @@
 						$course = $_GET['course'];
 						$test_id = $_GET['testid'];
 					?>
-						<img src="<?= base_url('assets/images/logo1.png') ?> " alt="logo" style="width:200px; height:55px; margin-left:50px;float:left;" >
+						<img src="<?= base_url('assets/images/logo1.png') ?> " alt="logo" style="width:140px; height:27px; margin:10px 0 0 50px;float:left;" >
 						<a id="submit-btn" href="<?= base_url('DoTest/endtest?course='.$course.'&testid='.$test_id);?>">SUBMIT</a>
 						<!-- <button id="submit-btn"><?= anchor ( base_url("DoTest/endtest/{$course}/{$test_id}"), 'Submit'); ?></button> -->
 

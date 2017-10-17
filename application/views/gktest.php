@@ -12,7 +12,7 @@
 			 	<div id="header">
 
 			 		<div id="main-header">
-			 			<img src="<?= base_url('assets/images/logo1.png') ?>" alt="logo" style="width:200px; height:55px; margin-left: 110px;">
+			 			<img src="<?= base_url('assets/images/logo1.png') ?>" alt="logo" style="width:140px; height:27px; margin:10px 0 0 110px;">
 			 			<div id="user-name-logout">
 			 				<p style="padding-right: 10px; font-size: 16px;letter-spacing: 1px;"><?php print_r($this->session->userdata('name')); ?></p> 
 			 				<a style="width: 100px;height:50px; font-family: sans-serif; font-size: 16px; border-left: 1px solid gray; padding:5px 0 5px 10px;text-decoration: none " href="<?= base_url("Login/logout"); ?>">Logout</a>
