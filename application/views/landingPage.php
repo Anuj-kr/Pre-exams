@@ -284,12 +284,12 @@
                                 <div class="banner-left-side">
                                     <h2 id="top-heading" style="">ACE YOUR EXAM</h2>
                                     
-                                    <p style="font-family: Calibri; font-size: 20px; color:darkslategray; text-align: left; margin-top:50px;line-height: 
+                                    <p id="top-head-para" style=" 
                                     ">
-                                        Join the most comprehensive online preparation portal for Banking and Government exams. Explore a range of mock<br> tests and study material.
+                                        Join the most comprehensive online preparation portal for Banking and Government exams. Explore a range of mock tests and study material.
                                     </p>
 
-                                    <button id="signupNow" class="tp-button" onclick="disp()">GET STARTED</button>
+                                    <button id="signupNow" class="tp-button" onclick="disp()" style="margin-top: 20px;">GET STARTED</button>
                                 </div>
 
                                 <div id="image">
