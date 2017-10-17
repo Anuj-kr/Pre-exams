@@ -44,14 +44,16 @@
                 border:1px solid black;
                 border-radius: 5px;
                 top:-100px;
-                animation: drop 650ms ease forwards;
+                animation: drop 450ms ease forwards;
                 
             }
-            @keyframes drop{
+          /*@keyframes drop{
                 0%{ opacity:0; }
                 70%{transform:translateY(20px);}
                 100%{ transform:translateY(20px); opacity: 1;}
-            }
+                from{transform:scale(0);}
+                to{transform:scale(1)}
+            }*/
 
 
             .close{
@@ -146,13 +148,15 @@
                 border:1px solid black;
                 border-radius: 5px;
                 top:-100px;
-                animation: drop 650ms ease forwards;
+                animation: drop 450ms ease forwards;
                 
             }
             @keyframes drop{
-                0%{ opacity:0; }
+                /*0%{ opacity:0; }
                 70%{transform:translateY(20px);}
-                100%{ transform:translateY(20px); opacity: 1;}
+                100%{ transform:translateY(20px); opacity: 1;}*/
+                from{transform:scale(0);}
+                to{transform:scale(1)}
             }
 
 
@@ -234,6 +238,20 @@
                 color:red;
                 /*transition-duration: 5s;*/
             } 
+
+            @media screen and (min-width: 320px) and (max-width: 385px) {
+                .loginmodal-content{
+                width:95%;
+                height:460px;
+                margin:auto;
+                background-color: white;
+                border:1px solid black;
+                border-radius: 5px;
+                top:-100px;
+                animation: drop 650ms ease forwards;
+                
+            }
+            }
 
 </style>
 
