@@ -1006,11 +1006,13 @@ i.fa.fa-question{
 	background-color: cornflowerblue;
 }
 #subject_container{
-	width: 94%;
-	height:1070px;
+	width: 80%;
+	height:1190px;
 	/*margin-left: 9%;*/
 	padding-top: 10px;
 	text-align: center;
+	/*border: 1px solid red;*/
+	padding:20px auto 0px auto;
 }
 
 #subj li{
@@ -1033,6 +1035,7 @@ h3{
 	font-family: monospace;
 	text-decoration: none;
     z-index:0;
+    margin: 15px auto 0px auto;
 }
 .
 .sub_paragraph{
