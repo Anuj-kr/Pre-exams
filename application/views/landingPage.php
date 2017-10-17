@@ -307,7 +307,10 @@
                                 <div class="feature" >
 
                                     <div class="features">
-                                        <i class="fa fa-book" style="font-size:45px; float:left; margin:30px 10px 0 0px; color:#FF7F50;"></i><h2 class="feature-head">Up-to-date Exam Content</h2>
+                                        <p><i class="fa fa-book" style="font-size:45px; float:left; margin:30px 10px 0 0px; color:#FF7F50;">
+                                            
+                                        </i></p>
+                                        <h2 class="feature-head">Up-to-date Exam Content</h2>
                                             <p class="feature-text">Created by Exam Toppers, Experts and Top Faculty across the country. Comprehensive course material updated with latest exam patterns. </p>
                                     </div>
                                     <div class="features">
@@ -538,13 +541,13 @@
 
                 
                 $(document).on('click','#cour',function() {
-                $('html,body').animate({scrollTop:1480},800);
+                $('html,body').animate({scrollTop:1600},800);
                 return false;
                     })
               
                 
                 $(document).on('click','#con',function(){
-                $('html,body').animate({scrollTop:2465},800);
+                $('html,body').animate({scrollTop:2600},800);
                 return false;
             })
             $("#nav").localScroll("this");
