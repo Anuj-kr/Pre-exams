@@ -1431,7 +1431,7 @@ h3{
 			.loginmodal-content{
                 width:95%;
                 height:460px;
-                margin:auto;
+                margin:-50px auto 0 auto;
                 background-color: white;
                 border:1px solid black;
                 border-radius: 5px;
@@ -1442,7 +1442,7 @@ h3{
             .modal-content{
                 width:92%;
                 height:460px;
-                margin:auto;
+                margin:-50px auto 0 auto;
                 background-color: white;
                 border:1px solid black;
                 border-radius: 5px;
