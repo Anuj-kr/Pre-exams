@@ -28,7 +28,7 @@
       
          
             
-            <div id="main_container" style=" border-top: 0.1px solid white; box-sizing:border-box;" >   
+            <div id="main_container" style="box-sizing:border-box;" >   
             <!-- Arrow up icon start-->
                 <div id="up-arrow" style="width:45px;height:45px; border-radius:40px; padding:10px 0 0 12px;background-color: cornflowerblue; right:3%; bottom: 7%; position: fixed; display: none;" >
                     <a href=""><i class="fa fa-arrow-up" style="font-size: 25px;color:white; text-align: center;"></i></a>
@@ -37,14 +37,14 @@
                 <div id="header">
 
                         <div id="logo_container">
-                            <a href="<?= base_url(''); ?>"><img src="<?= base_url('assets/images/logo1.png') ?> " alt="logo" style="width:150px; height:27px; margin:12px 0 0 20px;"></a>
+                            <a href="<?= base_url(''); ?>" style="width:150px; height:54px; margin-top:25px;;margin-left:20px; font-size: 35px; font-family: candara; font-style: italic; text-decoration: none;color:cornflowerblue;">Pre-exams</a>
                             Beta
                             <p id="ws"></p>
                         </div>
                         <div id="navbar">
                             <ul id="nav">
                                 <!-- <li><?= anchor('Main','Home');?></a></li> -->
-                                <li><a id="ho" href="<?= base_url();?>" style="color: cornflowerblue; border-bottom: 2px solid cornflowerblue;">Home</a></li>
+                                <li><a id="ho" href="<?= base_url();?>">Home</a></li>
                                 <li><a id="feat" href="">Features</a></li>
                                 <li><a id="cour" href="">Course</a></li>
                                 <li><a id="con" href="">Contact</a></li>
@@ -57,27 +57,29 @@
                     <!-- <?php //include('navbar1.php'); ?> -->
                     <div id="container" >
 
-                        <div id="sub_container" style="margin-top:50px;" >
+                        <div id="sub_container" >
 
                         <div id="banner1_and_features">
 
                             <div id="banner1">
-
-                                <div class="banner-left-side">
+                                <div id="top-overlay">
+                                
                                     <h2 id="top-heading" style="">ACE YOUR EXAM</h2>
                                     
-                                    <p id="top-head-para" style=" 
+                                    <p class="top-head-para" style=" 
                                     ">
-                                        Join the most comprehensive online preparation portal for Banking and Government exams. Explore a range of mock tests and study material.
+                                        Join the most comprehensive online preparation portal </p>
+                                        <p class="top-head-para">for Banking and Government exams. Explore a range of</p> 
+                                        <p class="top-head-para">mock tests and study material.
                                     </p>
 
-                                    <button id="signupNow" class="tp-button" onclick="disp()" style="margin-top: 20px;">GET STARTED</button>
-                                </div>
+                                    <button id="signupNow" class="tp-button" onclick="disp()" ">GET STARTED</button>
+                                
 
-                                <div id="image">
+                                <!-- <div id="image">
                                     <img src= "<?=base_url('assets/images/main1.png') ?>" alt=" " style="width:100%; height:100%;">
+                                </div> --> -->
                                 </div>
-
                             </div>
 
                             <div id="features_list" style="text-align: center; ">
@@ -273,25 +275,25 @@
             }
             
 // *********************************for changing color of nav li ***************************
-            if(ScrollPos < 580) {
-                set_color('#ho');
-                reset_color('#feat','#cour','#con');
+            if(ScrollPos < 590) {
+                 $('#ho').css('color','white');
+                reset_color('#feat','#cour','#con',ScrollPos);
             }
             else if(ScrollPos > 580 && ScrollPos < 1410) {
                 set_color("#feat");
-                reset_color('#cour','#con','#ho');
+                reset_color('#cour','#con','#ho',ScrollPos);
             }
             else if(ScrollPos > 1410 && ScrollPos < 2310) {
                 set_color("#cour");
-                reset_color('#feat','#con','#ho');
+                reset_color('#feat','#con','#ho',ScrollPos);
             }
             else if(ScrollPos > 2310) {
                 set_color("#con");
-                reset_color('#cour','#feat','#ho');
+                reset_color('#cour','#feat','#ho',ScrollPos);
             }
             else {
-                $("#ho").css('color','cornflowerblue');
-                $("#ho").css('border-bottom','2px solid cornflowerblue');
+                // $("#ho").css('color','cornflowerblue');
+                // $("#ho").css('border-bottom','2px solid cornflowerblue');
             }
         });
 
@@ -300,14 +302,35 @@
             $(tag).css('color','cornflowerblue');
             $(tag).css('border-bottom','2px solid cornflowerblue');
         }
-        function reset_color(p, q, r) {
-            $(p).css('color','darkslategray');
-            $(p).css('border-bottom','none');
-            $(q).css('color','darkslategray');
-            $(q).css('border-bottom','none');
-            $(r).css('color','darkslategray');
-            $(r).css('border-bottom','none');
+        function reset_color(p, q, r,ScrollPos) {
+            if(ScrollPos > 590) {
+                $('#header').css('backgroundColor','white'); //navbar
+                $('#header').css('boxShadow','0 0 5px 0 lightgray');
+                $(p).css('color','darkslategray');
+                $(p).css('border-bottom','none');
+                $(q).css('color','darkslategray');
+                $(q).css('border-bottom','none');
+                $(r).css('color','darkslategray');
+                $(r).css('border-bottom','none');
+
+                $('#login').css('color','darkslategray');
+                $('#signupNow').css('color','darkslategray');
+            }
+            else{
+                $('#header').css('backgroundColor','transparent');//navbar
+                $('#header').css('boxShadow','none');
+                $(p).css('color','white');
+                $(p).css('border-bottom','none');
+                $(q).css('color','white');
+                $(q).css('border-bottom','none');
+                $(r).css('color','white');
+                $(r).css('border-bottom','none');
+
+                $('#login').css('color','white');
+                $('#signupNow').css('color','white');
+            }
         }
+
 
  // *********************************for changing color of nav li *****************************
         </script>
