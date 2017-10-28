@@ -13,7 +13,7 @@
 						<div id="get-in-touch-content-holder">
 							<div class="contacts">
 								<i class="fa fa-map-marker" ></i>
-								<h2 style=" font-size: 22px; line-height:60px;">Address</h2><hr style="width:90px; color:hostWhite; margin:0 auto 10px auto; opacity: 0.2;">
+								<h2 style=" font-size: 22px; line-height:60px;">Address</h2><hr style="width:90px; color:hostWhite; margin:0 auto 10px auto; opacity: 0.4;">
 								<p>
 									Pre-exams<br>
 									Hall-9 Room-417<br>
@@ -24,22 +24,22 @@
 
 							<div class="contacts">
 								<i class="fa fa-envelope-o"></i>
-								<h2 style=" font-size: 22px; line-height:60px;">E-mail</h2><hr style="width:75px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.2;">
+								<h2 style=" font-size: 22px; line-height:60px;">E-mail</h2><hr style="width:75px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.4;">
 								<p>anujkr0502@gmail.com</p>
 							</div>
 							<div class="contacts">
 								<i class="fa fa-phone" ></i>
 								<h2 style=" font-size: 22px; line-height:60px;">Call</h2>
-								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.2;">
+								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.4;">
 								<p>
 									+91-9308656986<br>
 									Availavle Monday <br>to friday between <br>9am to 6pm
 								</p>
 							</div>
-							<div class="contacts">
+							<div class="contacts" id="last">
 								<i class="fa fa-question" ></i>
 								<h2 style=" font-size: 22px; line-height:60px;">FAQ</h2>
-								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.2;">
+								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.4;">
 								<p>
 									Answers to the most<br> frequently asked<br>questions about <br><a href="#" style="text-decoration: none; color:#609cec;">Pre-exams</a>
 								</p>

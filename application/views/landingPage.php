@@ -37,13 +37,12 @@
                 <div id="header">
 
                         <div id="logo_container">
-                            <a href="<?= base_url(''); ?>" style="width:150px; height:54px; margin-top:25px;;margin-left:20px; font-size: 35px; font-family: candara; font-style: italic; text-decoration: none;color:cornflowerblue;">Pre-exams</a>
+                            <a id="logo" href="<?= base_url(''); ?>" style="">Pre-exams</a>
                             Beta
                             <p id="ws"></p>
                         </div>
                         <div id="navbar">
                             <ul id="nav">
-                                <!-- <li><?= anchor('Main','Home');?></a></li> -->
                                 <li><a id="ho" href="<?= base_url();?>">Home</a></li>
                                 <li><a id="feat" href="">Features</a></li>
                                 <li><a id="cour" href="">Course</a></li>
@@ -54,7 +53,6 @@
                         </div>
 
                     </div>
-                    <!-- <?php //include('navbar1.php'); ?> -->
                     <div id="container" >
 
                         <div id="sub_container" >
@@ -62,6 +60,7 @@
                         <div id="banner1_and_features">
 
                             <div id="banner1">
+                                <!-- <img src="<?= base_url('assets/css/top.jpg'); ?>" width="100%"; height="645px;"> -->
                                 <div id="top-overlay">
                                 
                                     <h2 id="top-heading" style="">ACE YOUR EXAM</h2>
@@ -78,7 +77,7 @@
 
                                 <!-- <div id="image">
                                     <img src= "<?=base_url('assets/images/main1.png') ?>" alt=" " style="width:100%; height:100%;">
-                                </div> --> -->
+                                </div> -->
                                 </div>
                             </div>
 
@@ -103,7 +102,7 @@
                                     </div>
                                     <div class="features">
                                         <i class="fa fa-book" style="font-size:45px; float:left; margin:30px 0px 0 0px; color:#FF7F50;"></i><h2 class="feature-head">Extensive Online Test Series</h2>
-                                            <p class="feature-text">Extensive range of high quality mock tests with thousands of questions and their solutions, as per latest exam pattern. Complete set of practice tests needed for all exams</p>
+                                            <p class="feature-text">Extensive range of high quality mock tests with thousands of questions and their solutions, as per latest exam pattern. Complete set of practice tests.</p>
                                     </div>
                                     <div class="features">
                                         <i class="fa fa-book" style="font-size:45px; float:left; margin:30px 0px 0 0px; color:#FF7F50;"></i><h2 class="feature-head">Huge Database of Questions</h2>
