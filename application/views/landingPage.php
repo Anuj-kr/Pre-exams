@@ -110,7 +110,7 @@
                                     </div>
                                     <div class="features">
                                         <i class="fa fa-book" style="font-size:45px; float:left; margin:30px 0px 0 0px; color:#FF7F50;"></i><h2 class="feature-head">Customized Study Planners</h2>
-                                            <p class="feature-text">Intelligent Planner creates a personalized study schedule based on syllabus, important topics and time available. Track your progress & upcoming tasks</p>
+                                            <p class="feature-text">Intelligent Planner creates a personalized study schedule based on syllabus, important topics and time available.</p>
                                     </div>
                                     <div class="features">
                                         <i class="fa fa-book" style="font-size:45px; float:left; margin:30px 0px 0 0px; color:#FF7F50;"></i><h2 class="feature-head">Complete Course Material</h2>

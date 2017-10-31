@@ -30,7 +30,7 @@
 							<div class="contacts">
 								<i class="fa fa-phone" ></i>
 								<h2 style=" font-size: 22px; line-height:60px;">Call</h2>
-								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.4;">
+								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.4;" />
 								<p>
 									+91-9308656986<br>
 									Availavle Monday <br>to friday between <br>9am to 6pm
@@ -39,7 +39,7 @@
 							<div class="contacts" id="last">
 								<i class="fa fa-question" ></i>
 								<h2 style=" font-size: 22px; line-height:60px;">FAQ</h2>
-								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.4;">
+								<hr style="width:50px; color:GhostWhite; margin:0 auto 10px auto; opacity: 0.4;" />
 								<p>
 									Answers to the most<br> frequently asked<br>questions about <br><a href="#" style="text-decoration: none; color:#609cec;">Pre-exams</a>
 								</p>

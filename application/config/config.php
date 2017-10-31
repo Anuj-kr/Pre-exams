@@ -27,11 +27,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // ==============================================================================
 // for the server
 
-$config['base_url'] = 'https://pre-exams.herokuapp.com';
+// $config['base_url'] = 'https://pre-exams.herokuapp.com';
 
 // for local
 
-// $config['base_url'] = '';
+$config['base_url'] = '';
 
 // =====================================================================================
 
