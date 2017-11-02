@@ -2054,7 +2054,7 @@ i.fa.fa-question{
 	/*margin-left: 9%;*/
 	padding-top: 10px;
 	text-align: center;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	padding:20px auto 0px auto;
 
 }
@@ -2499,7 +2499,7 @@ h3{
 	font-family: monospace;
 	text-decoration: none;
     z-index:0;
-    margin: 15px auto 0px auto;
+    margin: 15px auto 0px 10px;
 }
 .
 .sub_paragraph{
@@ -2632,7 +2632,21 @@ h3{
 }
 
 /******************Mobile view end ***************/
-
+@media screen and (max-width:355px) {
+	.sub_anchor{
+	width: 250px;
+	height:130px;
+	background-color: darkslategray;
+	float: left;
+	border-radius: 5px;
+	padding-top:0px;
+	color:white;
+	font-family: monospace;
+	text-decoration: none;
+    z-index:0;
+    margin: 15px auto 0px 6px;
+}
+}
 @media screen and (max-width:335px) {
 	.sub_anchor{
 	width: 240px;
@@ -2645,6 +2659,22 @@ h3{
 	font-family: monospace;
 	text-decoration: none;
     z-index:0;
-    margin: 15px auto 0px auto;
+    margin: 15px auto 0px 5px;
+}
+}
+
+@media screen and (max-width:320px) {
+	.sub_anchor{
+	width: 220px;
+	height:130px;
+	background-color: darkslategray;
+	float: left;
+	border-radius: 5px;
+	padding-top:0px;
+	color:white;
+	font-family: monospace;
+	text-decoration: none;
+    z-index:0;
+    margin: 15px auto 0px 5px;
 }
 }
