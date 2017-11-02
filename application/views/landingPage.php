@@ -233,10 +233,27 @@
             <script src="<?php echo base_url('assets/javascript/login_signup.js'); ?>">  
         <script type="text/javascript" src="<?php echo base_url('assets/js/nanobar.min.js') ?>"></script>
         <script type="text/javascript">
-            window.onresize = function() {
+            // window.onresize = function() {
                 var ws = window.innerWidth;
                 document.getElementById("ws").innerHTML = ws;
+                if(ws < 500) {
+                    navcolor();
+                }
+            // }
+
+            //for mobile view navbar *********************
+            function navcolor() {
+                console.log("500");
+                $(document).scroll( function(e) {
+                    var sc = $(this).scrollTop();
+                    if(sc > 350) {
+                        $('#header').css('backgroundColor','white'); //navbar
+                        $('#header').css('boxShadow','0 0 5px 0 lightgray');
+                    }
+                })
             }
+
+            //***********************************************
         </script>
 
         <script type="text/javascript">
@@ -263,6 +280,7 @@
         $(document).scroll(function(e){
             var ScrollPos = $(this).scrollTop();
             
+            
 
             if(ScrollPos > ammountScolled){
                 $('#up-arrow').fadeIn(600);
@@ -271,6 +289,8 @@
                 $('#up-arrow').fadeOut(500);
                 
             }
+
+
             
 // *********************************for changing color of nav li ***************************
             if(ScrollPos < 590) {
@@ -355,5 +375,17 @@
             })
             $("#nav").localScroll("this");
         </script>
+
+
+        <!-- <script type="text/javascript">
+                var zzz = $(this).scrollTop();
+                if( window.innerWidth < 500 ) {
+                console.log("anuj");
+                if(zzz > 100) {
+                    $('#header').css('backgroundColor','white'); //navbar
+                }
+            }
+
+        </script> -->
         </body>
     </html>
