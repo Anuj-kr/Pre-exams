@@ -17,6 +17,7 @@
 
             <!-- For Icons -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
         </head>
@@ -30,8 +31,8 @@
             
             <div id="main_container" style="box-sizing:border-box;" >   
             <!-- Arrow up icon start-->
-                <div id="up-arrow" style="width:45px;height:45px; border-radius:40px; padding:10px 0 0 12px;background-color: cornflowerblue; right:3%; bottom: 7%; position: fixed; display: none;" >
-                    <a href=""><i class="fa fa-arrow-up" style="font-size: 25px;color:white; text-align: center;"></i></a>
+                <div id="up-arrow" style="width:37px;height:37px; border-radius:40px; padding:6px 0 0 6px;background-color: cornflowerblue; right:3%; bottom: 7%; position: fixed; display: none;" >
+                    <a href=""><i class="material-icons" style="font-size: 25px;color:white; text-align: center;">arrow_upward</i></a>
                 </div>
                 <!-- Arrow up icon end -->
                 <div id="header">
@@ -64,13 +65,11 @@
                                 <div id="top-overlay">
                                 
                                     <h2 id="top-heading" style="">ACE YOUR EXAM</h2>
-                                    
-                                    <p class="top-head-para" style=" 
-                                    ">
-                                        Join the most comprehensive online preparation portal </p>
-                                        <p class="top-head-para">for Banking and Government exams. Explore a range of</p> 
-                                        <p class="top-head-para">mock tests and study material.
+                                    <div id="top-head-para-container">
+                                    <p class="top-head-para">
+                                        Join the most comprehensive online preparation portal for Banking and Government exams. Explore a range of mock tests and study material.
                                     </p>
+                                    </div>
 
                                     <button id="signupNow" class="tp-button" onclick="disp()" ">GET STARTED</button>
                                 
